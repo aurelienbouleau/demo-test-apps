@@ -39,7 +39,7 @@ dt {
   font-size:80px;
   font-weight:bold;
   line-height:120px;
-  color: rgb(0,139,185);
+  color: rgb(31,198,0);
 }
 
 .goodbye .hello {
@@ -56,7 +56,7 @@ dt {
   left:0;
   right:0;
   text-align:center;
-  color: rgb(0,151,198)
+  color: rgb(8,144,0)
 }
 
 .goodbye .my-index {
@@ -72,7 +72,7 @@ dt {
   color: #fff;
   font-size: 80px;
   line-height: 120px;
-  background-color:rgb(36,184,235);
+  background-color:rgb(31,198,0);
   text-align:center;
 }
 
@@ -89,7 +89,7 @@ dt {
   color: #fff;
   font-size: 30px;
   line-height: 120px;
-  background-color: rgb(0,151,198);
+  background-color: rgb(8,144,0);
   text-align: center;
 }
 
@@ -103,7 +103,7 @@ dt {
   bottom:0;
   left:0;
   right:0;
-  background-color: rgb(0,139,185);
+  background-color: rgb(10,93,0);
 }
 
 .goodbye .bottom-color {
