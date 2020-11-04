@@ -1,0 +1,30 @@
+---
+# Deploy Test Apps for Orange Cloud for Business environnement :
+#  - Blue Apps
+#  - Green Apps
+#
+#  => App Manifest Attribute Reference : 
+#     https://docs.cloudfoundry.org/devguide/deploy-apps/manifest-attributes.html
+
+# Default values
+defaults: &defaults
+  memory: 64M              # Set sufficient memory
+  instances: 1             # Number of instances
+
+# Set applications
+applications:
+- name: BlueApp           # Name of deployed Apps in CF
+  path: ./BlueApps/       # Directory containing Apps to deploy
+  host: blueapp           # /!\ Maybe deprecated in the future :-/ => routes ?
+  #routes:
+  #- route: BlueApp
+  #memory: 64M             # Set sufficient memory
+  #instances: 1            # Number of instances
+- name: GreenApp          # Name of deployed Apps in CF
+  path: ./GreenApps/      # Directory containing Apps to deploy
+  host: greenapp          # /!\ Maybe deprecated in the future :-/ => routes ?
+  #routes:
+  #- route: GreenApp
+  #memory: 64M             # Set sufficient memory
+  #instances: 1            # Number of instances
+...
